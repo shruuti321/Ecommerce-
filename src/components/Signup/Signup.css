@@ -1,0 +1,101 @@
+body{
+   /* background-color:  #d0bdf4; */
+}
+.signhead,.loginhead{
+    color:white;
+    text-align: center;
+}
+.signup-form,.login-form{
+     /* display:grid; 
+    grid-template-columns: max-content max-content; */
+    /* grid-gap:5px; */
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    /* background-color:#454545; */
+    /* background-image: url("https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"); */
+    /* text-align:center; */
+    margin-top:50px;
+    overflow:hidden;
+    width:33%; 
+    height:580px;
+    margin-left:auto;
+    margin-right:auto;
+    border:solid 2px;
+    padding:20px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    
+}
+  label{
+    /* display:block;*/
+     text-align:center;  
+     font-size:18px;
+     float: left;
+     width: 135px;
+     margin-top:25px;
+     color:white;
+}  
+input,textarea {
+    float: left;
+    width: calc(100% - 135px);
+    margin-top:15px;
+    padding:10px;
+    border:solid 1px;
+    color:white;
+    border-color:white;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    font-family:inherit;
+  font-size: inherit;
+  background:transparent;
+  }
+
+  .sign,.log{
+    margin:auto;
+    border:0;
+    background-color:rgb(255, 124, 0);
+    font-weight: bold;
+    height:45px;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    width:25%;
+    text-align: center;
+    /* margin-left:33%; */
+    margin-top:15px;
+    margin-bottom:8px;
+    font-size:18px
+  }
+    .bott{
+        text-align:center;
+        color:white;
+  } 
+  .link{
+     text-decoration: none;
+     color:white;
+  }
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+  }
+ .alert-success {background-color: #04AA6D;}
+ /* .alert.error {background-color: #ff9800;}*/
+  .close {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .close:hover {
+    color: black;
+  } 

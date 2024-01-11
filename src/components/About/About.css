@@ -1,0 +1,41 @@
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  .abcolumn {
+    /* float: left; */
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+ 
+  
+  /* Style the counter cards */
+  .abcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color:#ADD8E6; 
+     border-radius:10px; 
+    height:250px;
+  }
+  .abo{
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right:auto
+  }
+  

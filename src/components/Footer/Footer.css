@@ -1,0 +1,21 @@
+.copy{
+    text-decoration: none;
+}
+.ic{
+    border:solid 1px white;
+    margin:auto;
+}
+.links a{
+	
+	font-size:18px;
+	margin-right:20px;
+    color:white;
+    margin-top:-5px;
+    
+    text-decoration: none;	
+	
+}
+  
+.links a:hover{
+	color: grey;
+}
